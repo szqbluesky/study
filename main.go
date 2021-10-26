@@ -1,7 +1,13 @@
 package study
 
-func main(){
+import (
+	"fmt"
+
+	"github.com/github.com/gin-gonic/gin"
+)
+
+func main() {
 
 	engine := gin.Default()
-	engine.Use(middleware.time)
+	fmt.Println(engine)
 }
